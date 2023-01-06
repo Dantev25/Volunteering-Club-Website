@@ -134,6 +134,7 @@ a{
     .collapse{
         max-height: 0;
         overflow: hidden;
+        transition: all 0.8s cubic-bezier(0.51,-0.15,0,0.98);
     }
 
     .collapse.nav-link{
