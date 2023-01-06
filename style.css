@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
+
+
+/* root styling */
+:root{
+    --light: transparent;
+    --secondary: #adb5bd;
+    --dark: #343a40;
+    --primary-color: #5F9EA0;
+    --secondary-color: #2ec4b6;
+    --border: #e9ecef;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url("/Images/background.png");
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+}
+
+*>*{
+    box-sizing: border-box;
+}
+
+/* global styling */
+.text-light{
+    color: var(--light);
+}
+
+.text-secondary{
+    color: var(--secondary);
+}
+
+.text-dark{
+    color: var(--dark);
+}
+
+.text-primary{
+    color: var(--primary-color);
+}
+
+.bg-light{
+    background-color: var(--light);
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+
+/* section styling  */
+/*------ Navigation menu------ */
+.navbar{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 20px 0px;
+    
+}
+
+.nav-brand{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bold;
+    align-self: center;
+    font-size: 32px;
+}
+
+.collapse{
+    align-items: center;
+    margin:20px 0px 0px 0px;
+}
+
+.nav-link{
+    font-size: 18px;
+    margin: 12px;
+    color: var(--dark);
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-box{
+    display: inline;
+    /* border-right: 1px solid var(--secondary); */
+    padding-right: 12px;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    color: var(--primary-color);
+}
+
+.toggle-button{
+    font-size: 21px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    margin: 8px 10px;
+    display: none;
+}
+
+.toggle-button:focus{
+    outline: none;
+}
+
+.shadow img{
+    float: left;
+    width: 364.5px;
+    height: 150px;
+    background: transparent;
+    margin: -20px 70px -20px -100px;
+}
+/*------ Navigation menu------ */
+
+/* Media Query */
+@media(max-width: 992px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 574px){
+    .toggle-button{
+        display: initial;
+    }
+
+    .collapse{
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .collapse.nav-link{
+        display: block;
+        text-align: center;
+    }
+
+    .search-box{
+        border-right: none;
+    }
+}
