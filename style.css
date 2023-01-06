@@ -144,4 +144,8 @@ a{
     .search-box{
         border-right: none;
     }
+
+    .collapse-toggle{
+        max-height: 500px;
+    }
 }
