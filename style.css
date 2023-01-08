@@ -150,3 +150,47 @@ a{
         max-height: 500px;
     }
 }
+
+/* Main page */
+
+.new{
+    position: relative;
+}
+
+.textured-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.plant-tree-img{
+    position: absolute;
+    top: 38px;
+    left: 180px;
+
+}
+
+.text{
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+
+@media only screen and (max-width: 945px) {
+    .textured-image{
+      width: 85%;
+      height: 50%;
+      align-self: center;
+    }
+
+    .plant-tree-img{
+        position: absolute;
+        width: 40%;
+        height: 65%;
+        top: 60px;
+        left: 85px;
+    }
+}
