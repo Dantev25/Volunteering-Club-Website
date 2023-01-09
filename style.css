@@ -1,3 +1,4 @@
+/* import font */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&family=Roboto&display=swap');
 
 
@@ -153,44 +154,32 @@ a{
 
 /* Main page */
 
-.new{
-    position: relative;
+.home-content{
+    background-image: url(/Images/textured\ background.png);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 85%;
+    margin: 5rem auto 0 auto;
+    margin-bottom: 80px;
 }
 
-.textured-image{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    position: relative;
-}
-
-.plant-tree-img{
-    position: absolute;
-    top: 38px;
-    left: 180px;
+.home-content img{
+    height:300px;
 
 }
 
-.text{
-    position: absolute;
-    top: 50px;
-    right: 180px;
+.home-content h1{
+    margin: 0;
+    margin-top: 20px;
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media only screen and (max-width: 945px) {
-    .textured-image{
-      width: 85%;
-      height: 50%;
-      align-self: center;
-    }
-
-    .plant-tree-img{
-        position: absolute;
-        width: 40%;
-        height: 65%;
-        top: 60px;
-        left: 85px;
-    }
+.home-content p{
+    margin-right: 15px;
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
 }
+/* /Main Page */
