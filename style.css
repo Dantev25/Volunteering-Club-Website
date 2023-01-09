@@ -130,6 +130,7 @@ a{
 @media(max-width: 574px){
     .toggle-button{
         display: initial;
+        margin-top: 42px;
     }
 
     .collapse{
@@ -179,8 +180,12 @@ a{
     margin-bottom: 80px;
 }
 
-.home-content img{
-    height:300px;
+.text-home img{
+    max-height: 300px;
+    max-width: 100%;
+    float:right;
+    margin-left: 50px;
+    
 
 }
 
