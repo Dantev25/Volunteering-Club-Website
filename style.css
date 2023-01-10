@@ -16,7 +16,7 @@ body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("/Volunteering-Club-Website/Images/background.png");
+    background-image: url("/Images/background.png");
     background-attachment: fixed;
 }
 
@@ -171,7 +171,7 @@ a{
 /* Main page */
 
 .home-content{
-    background-image: url(/Volunteering-Club-Website/Images/textured\ background.png);
+    background-image: url(/Images/textured\ background.png);
     display: flex;
     justify-content: space-between;
     padding: 40px;
