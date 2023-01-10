@@ -16,7 +16,7 @@ body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("/Images/background.png");
+    background-image: url("Images/background.png");
     background-attachment: fixed;
 }
 
@@ -171,7 +171,7 @@ a{
 /* Main page */
 
 .home-content{
-    background-image: url(/Images/textured\ background.png);
+    background-image: url(Images/textured\ background.png);
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -203,3 +203,41 @@ a{
     font-style: italic;
 }
 /* /Main Page */
+
+.recent-articles{
+    margin: auto;
+    width: auto;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: justify;
+    overflow: hidden;
+    padding: 20px;
+
+    
+}
+
+.recent-articles img{
+    margin: 150px 150px 15px 150px;
+    float:top;
+
+}
+
+.recent-articles p{
+    max-width: 270px;
+    margin-left: 150px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+/* Media Query */
+@media(max-width: 1400px){
+    .recent-articles{
+        flex-direction: column;
+        width: 540px;
+        
+    }
+}
