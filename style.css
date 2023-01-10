@@ -7,7 +7,7 @@
     --light: transparent;
     --secondary: #adb5bd;
     --dark: #343a40;
-    --primary-color: #5F9EA0;
+    --primary-color: #008080;
     --secondary-color: #2ec4b6;
     --border: #e9ecef;
 }
@@ -185,7 +185,7 @@ a{
     max-width: 100%;
     float:right;
     margin-left: 50px;
-    
+    margin-top: 10px;
 
 }
 
