@@ -207,11 +207,11 @@ a{
     font-family: 'Brush Script MT', cursive;
     font-style: italic;
 }
-/* /Main Page */
+/* /Main Page-articles */
 
 .recent-articles{
     margin: auto;
-    width: auto;
+    width: 90%;
     position:relative;
     display: flex;
     justify-content: center;
@@ -238,8 +238,8 @@ a{
 
 }
 
-/* Media Query */
-@media(max-width: 1400px){
+/* Media Query articles*/
+@media(max-width: 1600px){
     .recent-articles{
         flex-direction: column;
         width: 540px;
