@@ -181,7 +181,9 @@ a{
     margin: 5rem auto 0 auto;
     margin-bottom: 80px;
 }
-
+.text-home{
+    width: 100%;
+}
 .text-home img{
     max-height: 300px;
     max-width: 100%;
