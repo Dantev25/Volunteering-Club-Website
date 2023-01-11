@@ -172,9 +172,11 @@ a{
 
 .home-content{
     background-image: url(Images/textured\ background.png);
+    /* border: 1px solid rosybrown; */
+    border-radius: 20px 50px;
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 30px;
     width: 85%;
     margin: 5rem auto 0 auto;
     margin-bottom: 80px;
@@ -186,6 +188,7 @@ a{
     float: right;
     margin-left: 50px;
     margin-top: 10px;
+    border-radius: 15px;
 
 }
 
