@@ -396,7 +396,8 @@ a{
 
 /* Article  page*/
 .Article{
-    background-image: url(/Images/article-background.png);
+    /* background-color: peachpuff; */
+    /* background-image: url(../../Images/article-background1.png); */
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
