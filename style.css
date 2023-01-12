@@ -489,7 +489,7 @@ a{
 }
 
 .contact-c a:hover{
-    color:#ffffff;
+    color:#76a587;
 }
 
 .contact-map p{
@@ -548,3 +548,78 @@ a{
     }
     
 }
+
+
+/* join us */
+form{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+}
+.container-form {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    padding: 20px;  
+    max-width: 100%;
+    background-color: #aebfbd;  
+    width: 50%;
+    border-radius: 10px;
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+  border-radius: 10px;
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: #e8eafb;  
+  outline: none;  
+}  
+
+
+.container-form div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px; 
+  margin-top: 20px; 
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+  border-radius: 10px;
+  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+
+.container-form select {
+    appearance: none;
+    width: 30%;
+    
+    background-color: #f1f1f1;
+    color:#54585b;
+    border: none;
+    padding: 10px 1em 10px 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    margin: 20px;
+    border-radius: 10px;
+
+  }
