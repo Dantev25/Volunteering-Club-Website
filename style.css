@@ -207,39 +207,35 @@ a{
     font-family: 'Brush Script MT', cursive;
     font-style: italic;
 }
-/* /Main Page */
+/* /Main Page-articles */
 
 .recent-articles{
     margin: auto;
-    width: auto;
+
     position:relative;
     display: flex;
-    justify-content: center;
-    justify-items: center;
-    text-align: justify;
+    justify-content: space-between;
     overflow: hidden;
     padding: 20px;
-
+    max-width: 80%;
     
 }
 
-.recent-articles img{
-    margin: 150px 150px 15px 150px;
-    float:top;
-
-}
 
 .recent-articles p{
-    max-width: 270px;
-    margin-left: 150px;
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
 
 }
 
-/* Media Query */
-@media(max-width: 1400px){
+.article-c{
+    max-width: 270px;
+    
+}
+
+/* Media Query articles*/
+@media(max-width: 1200px){
     .recent-articles{
         flex-direction: column;
         width: 540px;
