@@ -14,6 +14,12 @@
         
         <!-- custom style.css file -->
         <link rel="stylesheet" href="../style.css">
+
+        <!-- Map scripts -->
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
     </head>
 
     <body>
@@ -65,16 +71,16 @@
             <div class="contact-c">
                 <div class="contact-container">
                 
-                  <div class="contact-element">
-                    <div class="contact-company-desc">
+                  <div class="contact-element1">
+                    <div class="contact-contact">
                       <h2>Eco Warriors Club</h2>
                       <p><br>Telephone: +230 58647264 <br><br>Email: 
-                        <a href="Homepage/join-us.html">ecowarriors@gmail.com</a>
+                        <a href="ecowarriors@gmail.com">ecowarriors@gmail.com</a>
                         </p>
                     </div>
                   </div>
         
-                  <div class="contact-element">
+                  <div class="contact-element2">
                     <div class="contact-hours">
                       <h2>Hours</h2>
                       <table class="table">
@@ -94,17 +100,17 @@
                   </div>
 
 
-                  <div class="contact-element">
-                    <div class="contact-links">
-                        <div id="map" style="width:100%;height:400px;">
+                  <div class="contact-element3">
+                    <div class="contact-map">
+                        <h2>Address</h2>
+                        <p>University of Mauritius,<br>Reduit,<br>Republic of Mauritius</p>
+                        <div id='map'></div>
+                        
                         </div>
                     </div>
                   </div>
                   
-        
-                  
-                
-                  
+
                 </div>
                 
               </div>
@@ -180,6 +186,27 @@
           </footer>
         <!-- Custom javascript main.js file-->
         <script src="../main.js"></script>
+        <script>
+            
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZGFudGUyNTAxIiwiYSI6ImNsY3Rmamk0dzB6YTEzb24ydGJ2YW03eDkifQ.tgFtvlzszpMR3kqkcympOQ';
+            const map = new mapboxgl.Map({
+            container: 'map', // container ID
+            // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+            style: 'mapbox://styles/mapbox/streets-v12', // style URL
+            center:[57.49670709578059,-20.233753727639712], // starting position
+            zoom: 15 // starting zoom
+            });
+ 
+            // Add zoom and rotation controls to the map.
+            map.addControl(new mapboxgl.NavigationControl());
+
+            // Set marker options.
+            const marker = new mapboxgl.Marker({
+            color: "#670404",
+            
+            }).setLngLat([57.49780709578059,-20.233753727639712])
+            .addTo(map);
+        </script>
         
     </body>
 </html>
