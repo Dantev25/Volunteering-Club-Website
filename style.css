@@ -395,3 +395,33 @@ a{
 .footer-copyright a{
     color:#000000;
 }
+
+/* Article  page*/
+.Article{
+    background-image: url(/Images/article-background.png);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    margin-bottom: 80px;
+}
+
+.article-1{
+    width: 100%;
+}
+
+.article-1 img {
+    max-height: 500px;
+    max-width: 200%;
+    margin-left: 85px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.Article p{
+    width: 85%;
+    margin-left: 85px;
+    margin-top: 20px;
+}
