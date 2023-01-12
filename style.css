@@ -332,10 +332,6 @@ a{
     height: auto;
     width: auto;
 
-    border:#9f0c0c;
-    border-style: solid;
-    border-width: 2px;
-
     background-color:#70908c;
 
     display: flex;
@@ -349,9 +345,7 @@ a{
 .footer-element{
     padding: 20px;
     width: 30%;
-    border:#9f0c0c;
-    border-style: solid;
-    border-width: 2px;
+
 
 }
 
