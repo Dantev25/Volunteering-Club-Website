@@ -442,6 +442,7 @@ a{
     justify-items: center;
     margin: auto;
     background-image: url(Images/textured\ background.png);
+    border-radius: 10px 60px;
     margin-bottom: 275px;
     max-width: 80%;
     width: auto;
