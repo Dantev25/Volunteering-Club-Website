@@ -298,6 +298,7 @@ a{
 
 .gallery .box .photo Gallery{
     width: 100%;
+    max-width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
 }
@@ -315,6 +316,7 @@ a{
 @media only screen and (max-width: 888px){
     gallery .heading{
         width: 100%;
+        
     }
     
     .gallery .heading h3{
@@ -333,7 +335,7 @@ a{
     height: auto;
     width: auto;
 
-    background-color:#70908c;
+    background-color:#aebfbd;
 
     display: flex;
     flex-direction: row;
@@ -370,7 +372,7 @@ a{
 }
 
 .footer-copyright{
-    background-color: #5e7875;
+    background-color: #929f9e;
     height: 50px;
     width: auto;
     text-align: center;
@@ -424,3 +426,47 @@ a{
     margin-left: 85px;
     margin-top: 20px;
 }
+/* about us */
+
+.contact-c{
+    display: block;
+    flex-direction: row;
+    height: min-content;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    background-image: url(Images/textured\ background.png);
+    margin-bottom: 275px;
+    max-width: 85%;
+    width: auto;
+}
+.contact-container{
+    
+    height: auto;
+
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 100px;
+    padding: 20px;
+}
+
+
+.contact-element{
+    padding: 20px;
+    width: 30%;
+
+
+}
+
+.contact-c a{
+    color: #000000;
+}
+
+.contact-c a:hover{
+    color:#ffffff;
+}
+
