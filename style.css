@@ -298,6 +298,7 @@ a{
 
 .gallery .box .photo Gallery{
     width: 100%;
+    max-width: 100%;
     padding-bottom: 15px;
     border-radius: 5px;
 }
@@ -315,6 +316,7 @@ a{
 @media only screen and (max-width: 888px){
     gallery .heading{
         width: 100%;
+        
     }
     
     .gallery .heading h3{
