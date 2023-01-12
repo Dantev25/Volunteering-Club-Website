@@ -7,7 +7,7 @@
     --light: transparent;
     --secondary: #adb5bd;
     --dark: #343a40;
-    --primary-color: #008080;
+    --primary-color: #F8F8FF;
     --secondary-color: #2ec4b6;
     --border: #e9ecef;
 }
@@ -425,6 +425,12 @@ a{
     width: 85%;
     margin-left: 85px;
     margin-top: 20px;
+}
+
+.Article iframe{
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-bottom: 30px;
 }
 /* about us */
 
