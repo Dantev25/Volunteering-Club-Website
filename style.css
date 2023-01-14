@@ -426,8 +426,34 @@ a{
 /* footer */
 
 .footer-c{
+    margin-top: 100px;
     height: min-content;
 }
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">";
+  }
+  ul.breadcrumb li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+
 .footer-container{
     
     height: auto;
@@ -438,7 +464,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 100px;
+    
     padding: 20px;
 }
 
@@ -851,3 +877,6 @@ input[type=text]:focus, input[type=password]:focus {
     text-align: center;
     width: auto;
 }
+
+
+
