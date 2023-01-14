@@ -64,6 +64,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
+    padding-top: 40px;
     
 }
 
@@ -119,7 +120,8 @@ a{
     display: block;
     width: 200px;
     background: transparent;
-
+    max-width: 100%;
+    margin-left: 40px;
 }
 /*------ Navigation menu------ */
 
@@ -423,7 +425,9 @@ a{
 
 
 }
-
+.footer-links{
+    margin-left: 100px;
+}
 .footer-links a{
     color: #000000;
 }
