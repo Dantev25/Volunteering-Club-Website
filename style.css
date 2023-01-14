@@ -137,7 +137,7 @@ a{
 }
 
 
-@media(max-width: 750px){
+@media(max-width: 900px){
     .navbar{
         flex-direction: column;
 
@@ -349,10 +349,13 @@ a{
 }
 
 .gallery .heading{
-    width: 50%;
     padding-bottom: 50px;
 }
+.gallery img{
+    width: 100%;
+    padding:10px;
 
+}
 .gallery .heading h3{
     font-size: 4em;
     font-weight: bolder;
@@ -432,6 +435,9 @@ a{
     width: 30%;
 
 
+}
+.footer-company-desc{
+    width:130%;
 }
 .footer-links{
     margin-left: 40px;
