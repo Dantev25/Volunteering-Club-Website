@@ -509,8 +509,6 @@ a{
 
 /* Article  page*/
 .Article{
-    /* background-color: peachpuff; */
-    /* background-image: url(../../Images/article-background1.png); */
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
