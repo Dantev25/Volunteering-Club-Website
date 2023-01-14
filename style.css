@@ -240,7 +240,18 @@ a{
     justify-content: center;
 }
   
+
+.article-bg{
+    background-image: url(Images/textured\ background.png);
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 10px;
+
+
+}
 .recent-articles{
+    
     margin-top: 100px;
     max-width: 100%;
     position:relative;
@@ -250,6 +261,7 @@ a{
     overflow: hidden;
     padding: 20px;
     align-content: flex-start;
+   
 
     
 }
@@ -268,6 +280,7 @@ a{
 .article-c{
     max-width: 330px;
     margin:40px;
+
     
 }
 
