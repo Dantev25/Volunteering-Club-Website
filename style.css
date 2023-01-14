@@ -127,7 +127,7 @@ a{
 @media(max-width: 900px){
     .navbar{
         flex-direction: column;
-        
+
     }
 }
 
@@ -156,6 +156,7 @@ a{
         justify-content: left;
         vertical-align: left;
         
+        
 
 
     }
@@ -166,7 +167,8 @@ a{
 
     .collapse-toggle{
         max-height: 900px;
-        width:185px;
+        width:125px;
+
        
 
     }
@@ -222,17 +224,27 @@ a{
 }
 /* /Main Page-articles */
 
+
+.container-recents{
+    display: flex;
+    justify-content: center;
+}
+  
 .recent-articles{
     margin-top: 100px;
-
+    max-width: 100%;
     position:relative;
     display:flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     overflow: hidden;
     padding: 20px;
+    align-content: flex-start;
 
     
 }
+
+
 
 
 .recent-articles p{
@@ -245,6 +257,7 @@ a{
 
 .article-c{
     max-width: 330px;
+    margin:40px;
     
 }
 
@@ -254,11 +267,46 @@ a{
     border-radius: 15px;
 }
 
-/* Media Query articles*/
-@media(max-width: 1200px){
+@media(max-width: 1280px){
     .recent-articles{
+        margin-top: 100px;
+        max-width: 90%;
+        position:relative;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: hidden;
+        padding: 20px 50px;
+        margin:0px;
+        align-content: flex-start;
+        
+    }
+}
+
+@media(max-width: 1020px){
+    .recent-articles{
+        margin-top: 100px;
+        max-width: 100%;
+        position:relative;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        overflow: hidden;
+        padding: 20px 40px;
+        margin:0px;
+        align-content: flex-start;
+        
+    }
+}
+
+/* Media Query articles*/
+@media(max-width: 900px){
+    .recent-articles{
+        display: flex;
         flex-direction: column;
-        width: 540px;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
         
     }
 }
