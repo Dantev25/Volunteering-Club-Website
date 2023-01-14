@@ -5,9 +5,9 @@
 /* root styling */
 :root{
     --light: transparent;
-    --secondary: #adb5bd;
+    --secondary: #2ec4b6;
     --dark: #343a40;
-    --primary-color: #F8F8FF;
+    --primary-color: #2ec4b6;
     --secondary-color: #2ec4b6;
     --border: #e9ecef;
 }
@@ -94,7 +94,7 @@ a{
 }
 
 .nav-link:active{
-    color: #2ec4b6;
+    color: #ffffff;
 }
 
 .toggle-button{
@@ -246,20 +246,20 @@ a{
     background-size: 95% 100%;
     background-repeat: no-repeat;
     border-radius: 15px;
-    margin-top: 10px;
+    margin-top: 40px;
 
 
 }
 .recent-articles{
     
-    margin-top: 100px;
+    margin-top: 30px;
     max-width: 100%;
     position:relative;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     overflow: hidden;
-    padding: 20px;
+    padding: 20px 100px;
     align-content: flex-start;
    
 
