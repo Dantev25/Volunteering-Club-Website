@@ -601,6 +601,12 @@ ul.breadcrumb {
     margin-bottom: 30px;
 }
 
+.Article audio{
+    margin-top: 25px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
 .Article table{
     width: 60%;
     border: 1px solid black;
