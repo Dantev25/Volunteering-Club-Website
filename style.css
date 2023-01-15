@@ -556,7 +556,7 @@ ul.breadcrumb {
 
 .article-1 img {
     max-height: 500px;
-    max-width: 200%;
+    max-width: 100%;
     margin-left: 85px;
     margin-top: 30px;
     border-radius: 20px;
@@ -573,6 +573,18 @@ ul.breadcrumb {
     margin-top: 25px;
     margin-left: 250px;
     margin-bottom: 30px;
+}
+
+.Article table{
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+
+.Article th, td{
+    text-align: center;
+    border: 1px solid black;
 }
 /* Contact us */
 
