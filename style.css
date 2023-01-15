@@ -1077,3 +1077,67 @@ input[type=text]:focus, input[type=password]:focus {
         
     }
 }
+
+/* post related */
+.row{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.post-article{
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.py-2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.display-2{
+    font-size: 16px;
+}
+
+.px-1{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-title{
+    font-family: 'DM Sans',sans-serif;
+    font-weight: bold;
+}
+
+.display-1{
+    font-size: 22px;
+}
+
+.object-fit{
+    max-height: 120px;
+    height: 70px;
+    width: 80px;
+    object-fit: fill;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.prev{
+    margin-right: 15px;
+}
+
+.next{
+    margin-left: 15px;
+}
