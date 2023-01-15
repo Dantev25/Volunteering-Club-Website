@@ -238,6 +238,7 @@ a{
 .container-recents{
     display: flex;
     justify-content: center;
+    justify-items: center;
 }
   
 
@@ -247,7 +248,8 @@ a{
     background-repeat: no-repeat;
     border-radius: 15px;
     margin-top: 40px;
-
+    height: 542px;
+    width: 410px;
 
 }
 .recent-articles{
@@ -257,11 +259,11 @@ a{
     position:relative;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     overflow: hidden;
-    padding: 20px 100px;
-    align-content: flex-start;
-   
+    padding: 20px;
+    justify-content: space-evenly;
+
+
 
     
 }
@@ -274,6 +276,7 @@ a{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    
 
 }
 
@@ -283,6 +286,25 @@ a{
 
     
 }
+
+.article-blank{
+    background-image: transparent;
+    margin-top: 40px;
+    height: 542px;
+    width: 410px;
+
+}
+.blank-article{
+    background-image: transparent;
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    margin-top: 40px;
+
+
+}
+
+
 
 .article-c img {
     width: 320px;
@@ -331,6 +353,10 @@ a{
         justify-content: center;
         max-width: 100%;
         
+    }
+    .article-blank{
+        width:0px;
+        height: 0px;
     }
 }
 
