@@ -255,7 +255,7 @@ a{
 .recent-articles{
     
     margin-top: 30px;
-    max-width: 100%;
+    max-width: 85%;
     position:relative;
     display:flex;
     flex-wrap: wrap;
