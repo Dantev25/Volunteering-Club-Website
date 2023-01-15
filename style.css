@@ -427,6 +427,10 @@ a{
     border-radius: 5px;
 }
 
+.zoom:hover{
+    transform: scale(1.13);
+}
+
 @media only screen and (max-width: 769px){
     .gallery .box{
         flex-direction: row; 
