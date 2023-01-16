@@ -303,9 +303,9 @@ a{
 
 }
 .recent-articles{
-    
+    margin: auto;
     margin-top: 30px;
-
+    
     position:relative;
     display:-webkit-box;
     display:-ms-flexbox;
@@ -317,6 +317,7 @@ a{
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    
 
 
 
@@ -367,49 +368,46 @@ a{
     border-radius: 15px;
 }
 
-@media(max-width: 1300px){
+/* Media Query articles*/
+@media(max-width: 1268px){
     .recent-articles{
-        margin-top: 100px;
-        max-width: 90%;
-        position:relative;
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        overflow: hidden;
-        padding: 20px 50px;
-        margin:0px;
-        -ms-flex-line-pack: start;
-            align-content: flex-start;
+        margin: auto;
+        margin-top: 30px;
+    
+    position:relative;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: hidden;
+    padding: 20px;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
         
     }
+    .article-blank1{
+        background-image: transparent;
+        margin-top: 40px;
+        height: 542px;
+        width: 410px;
+    
+    }
+    .blank-article1{
+        background-image: transparent;
+        background-size: 95% 100%;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        margin-top: 40px;
+    
+    
+    }
+    
 }
 
-@media(max-width: 1020px){
-    .recent-articles{
-        margin-top: 100px;
-        max-width: 100%;
-        position:relative;
-        display:-webkit-box;
-        display:-ms-flexbox;
-        display:flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        overflow: hidden;
-        padding: 20px 40px;
-        margin:0px;
-        -ms-flex-line-pack: start;
-            align-content: flex-start;
-        
-    }
-}
+
+
 
 /* Media Query articles*/
 @media(max-width: 900px){
@@ -430,9 +428,19 @@ a{
         max-width: 100%;
         
     }
-    .article-blank{
-        width:0px;
+    .article-blank1{
+        background-image: transparent;
+        margin-top: 0px;
         height: 0px;
+        width: 0px;
+    
+    }
+    .blank-article1{
+        background-image: transparent;
+        background-size: 100%;
+        margin-top: 0px;
+    
+    
     }
 }
 
