@@ -1042,12 +1042,14 @@ input[type=text]:focus, input[type=password]:focus {
 }  
 .registerbtn {  
   background-color: #4CAF50;  
-  color: white;  
-  padding: 16px 20px;  
-  margin: 8px 0;  
+  color: white;   
+
   border: none;  
   cursor: pointer;  
-  width: 100%;  
+  max-width: 100%;  
+  max-height: 100%;
+  width: 100%;
+  height: 50px;
   opacity: 0.9;  
   border-radius: 10px;
   
@@ -1147,6 +1149,39 @@ input[type=text]:focus, input[type=password]:focus {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
+
+.container-regaccept{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 400px;
+}
+
+.regaccept{
+    max-width: 100%;
+    width:75%;
+    text-align: center;
+}
+
+
+.regaccept a{
+    color:#0f74da;
+}
+
+.regaccept a:link{
+    color:#151617;
+}
+
+
+.regaccept a:hover{
+    color:#2ec4b6;
+}
+
+.regaccept a:active{
+    color: #970707;
+}
+
+
 
 /* About us */
 

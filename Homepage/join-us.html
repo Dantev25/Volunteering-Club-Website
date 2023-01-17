@@ -61,22 +61,20 @@
         <!-- /Header -->
 
         <main>
-            <form>  
+            <form action="regaccept/reg-accept.html">  
                 <div class="container-form">  
                     <center>  <h2> Join us!</h2> </center>  
                     <hr>  
                     <label> Firstname </label>   
-                    <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
-                    <label> Middlename </label>   
-                    <input type="text" name="middlename" placeholder="Middlename" size="15"  />   
+                    <input type="text" name="firstname" placeholder= "Firstname" size="15"  required/>   
                     <label> Lastname </label>    
-                    <input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+                    <input type="text" name="lastname" placeholder="Lastname" size="15" required/>   
                     <div>  
                     <label>   
                     Status :  
                     </label>   
                     
-                        <select>  
+                        <select required>  
                         <option value="Status">&#160 &#160Status</option>  
                         <option value="Junior School">&#160 &#160Junior School</option>  
                         <option value="Middle SSchool">&#160 &#160Middle SSchool</option>  
@@ -119,7 +117,7 @@
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
-                  <button type="submit" class="registerbtn">Register</button>    
+                  <button  type="submit" class="registerbtn" value="submit">Register</button>    
               </form>  
 
            
