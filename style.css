@@ -358,7 +358,10 @@ a{
 
 }
 .navbar-nav li{
+    display: inline;
     color: transparent;
+
+    
 }
 hr{
     text-align:center; 
