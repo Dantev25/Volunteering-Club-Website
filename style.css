@@ -130,7 +130,7 @@ a{
             align-items: center;
     -ms-flex-item-align: top;
         -ms-grid-row-align: top;
-        align-self: top;
+
 }
 
 .toggle-button:focus{
@@ -187,11 +187,10 @@ a{
         text-align: left;
         -webkit-box-align: left;
             -ms-flex-align: left;
-                align-items: left;
         -webkit-box-pack: left;
             -ms-flex-pack: left;
                 justify-content: left;
-        vertical-align: left;
+
     }
 
     .collapse.nav-link{
@@ -201,11 +200,10 @@ a{
         text-align: left;
         -webkit-box-align: left;
             -ms-flex-align: left;
-                align-items: left;
         -webkit-box-pack: left;
             -ms-flex-pack: left;
                 justify-content: left;
-        vertical-align: left;
+
         
         
 
@@ -344,14 +342,14 @@ a{
 }
 
 .article-blank{
-    background-image: transparent;
+    background-color: transparent;
     margin-top: 40px;
     height: 542px;
     width: 410px;
 
 }
 .blank-article{
-    background-image: transparent;
+    background-color: transparent;
     background-size: 95% 100%;
     background-repeat: no-repeat;
     border-radius: 15px;
@@ -394,14 +392,14 @@ hr{
         
     }
     .article-blank1{
-        background-image: transparent;
+        background-color: transparent;
         margin-top: 40px;
         height: 542px;
         width: 410px;
     
     }
     .blank-article1{
-        background-image: transparent;
+        background-color: transparent;
         background-size: 95% 100%;
         background-repeat: no-repeat;
         border-radius: 15px;
@@ -435,14 +433,14 @@ hr{
         
     }
     .article-blank1{
-        background-image: transparent;
+        background-color: transparent;
         margin-top: 0px;
         height: 0px;
         width: 0px;
     
     }
     .blank-article1{
-        background-image: transparent;
+        background-color: transparent;
         background-size: 100%;
         margin-top: 0px;
     
@@ -1266,8 +1264,10 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 #talk-bubble{
+    max-width: 100%;
+    max-height: fit-content;
     width: 100%;
-    height: 20%;
+
     background: #aebfbd;
     position: relative;
     /* -moz-border-radius: 10px; */
@@ -1279,10 +1279,12 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 #talk-bubble:before{
+    max-width: 100%;
+    max-height: fit-content;
     content: "";
     position: absolute;
     right: 100%;
-    top:120px;
+    top:80px;
     width: 0;
     height: 0;
     border-top: 13px solid transparent;
@@ -1292,8 +1294,10 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 #talk-bubble-2{
+    max-width: 100%;
+    max-height: fit-content;
     width: 100%;
-    height: 20%;
+
     background: #aebfbd;
     position: relative;
     /* -moz-border-radius: 10px; */
@@ -1301,14 +1305,14 @@ input[type=text]:focus, input[type=password]:focus {
     border-radius: 50px;
     margin-left: 40px;
     padding: 10px;
-    margin: 90px 30px;
+    margin: 170px 30px;
 }
 
 #talk-bubble-2:before{
     content: "";
     position: absolute;
     right: 100%;
-    top:120px;
+    top:80px;
     width: 0;
     height: 0;
     border-top: 13px solid transparent;
