@@ -1295,6 +1295,35 @@ input[type=text]:focus, input[type=password]:focus {
     margin-left: 40px;
     border-bottom: 13px solid transparent;
 }
+#talk-bubble1{
+    max-width: 100%;
+    max-height: fit-content;
+    width: 100%;
+
+    background: #aebfbd;
+    position: relative;
+    /* -moz-border-radius: 10px; */
+    /* -webkit-border-radius: 10px; */
+    border-radius: 50px;
+    margin-left: 40px;
+    padding: 10px;
+    margin: 30px;
+}
+
+#talk-bubble1:before{
+    max-width: 100%;
+    max-height: fit-content;
+    content: "";
+    position: absolute;
+    right: 100%;
+    top:80px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid #aebfbd;
+    margin-left: 40px;
+    border-bottom: 13px solid transparent;
+}
 
 #talk-bubble-2{
     max-width: 100%;
