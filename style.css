@@ -258,11 +258,13 @@ a{
     margin-top: 20px;
     font-size: xxx-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
     margin-left: 15px;
 }
 .home-content h4{
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    color: seagreen;
     margin-left: 15px;
     font-size: 25px;
 }
@@ -272,6 +274,7 @@ a{
     margin-right: 15px;
     font-size: 19px;
     font-family: 'Times New Roman', Times, serif;
+    color: seagreen;
     font-style: italic;
     margin-left: 15px;
 }
