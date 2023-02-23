@@ -27,6 +27,14 @@ body{
     background-attachment: fixed;
 }
 
+.dark-theme{
+    background-image: url("Images/dark-background.png");
+    --dark: #DCDCDC
+}
+
+.dark-theme .hr-line{
+    color: #DCDCDC;
+}
 a{
     text-decoration: none;
 }
@@ -105,8 +113,6 @@ a{
     color: var(--dark);
     font-family: 'Poppins', sans-serif;
 }
-
-
 
 .nav-link:hover{
     color: var(--primary-color);
@@ -240,6 +246,9 @@ a{
     margin: 8rem auto 0 auto;
     margin-bottom: 140px;
 }
+.dark-theme .home-content{
+    background-image: url(Images/dark-textured-background.png);
+}
 .text-home{
     width: 100%;
 }
@@ -264,7 +273,6 @@ a{
 .home-content h4{
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
-    color: seagreen;
     margin-left: 15px;
     font-size: 25px;
 }
@@ -274,7 +282,6 @@ a{
     margin-right: 15px;
     font-size: 19px;
     font-family: 'Times New Roman', Times, serif;
-    color: seagreen;
     font-style: italic;
     margin-left: 15px;
 }
