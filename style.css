@@ -551,11 +551,7 @@ hr{
     border-radius: 5px;
 }
 
-.zoom:hover{
-    -webkit-transform: scale(1.13);
-        -ms-transform: scale(1.13);
-            transform: scale(1.13);
-}
+
 
 @media only screen and (max-width: 769px){
     .gallery .box{
