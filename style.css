@@ -291,6 +291,7 @@ a{
     font-family: 'Times New Roman', Times, serif;
     margin-left: 15px;
     font-size: 25px;
+    color:#000000
 }
 
 .dark-theme h4{
@@ -304,6 +305,7 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     margin-left: 15px;
+    color:#000000
 }
 
 .dark-theme .home-content p{
@@ -376,6 +378,7 @@ a{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    color:#000000
 }
 
 .dark-theme .recent-articles p{
@@ -415,6 +418,7 @@ hr{
     text-align:center; 
     margin-left:auto; 
     margin-right:auto;
+    color:#000000
 }
 
 .article-c img {
@@ -575,6 +579,7 @@ hr{
   
   .gallery-h1 {
       text-align: center;
+      color:#000000
   }
 
 
@@ -676,6 +681,7 @@ ul.breadcrumb {
             justify-content: space-evenly;
     
     padding: 20px;
+    color:#000000
 }
 
 .dark-theme .footer-container{
@@ -747,6 +753,7 @@ ul.breadcrumb {
 
 .footer-copyright p{
  margin: 0;
+ color:#000000
 }
 
 .dark-theme .footer-copyright p{
