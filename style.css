@@ -545,7 +545,7 @@ hr{
     transform: rotateY(0deg);
   }
   
-  h1 {
+  .gallery-h1 {
       text-align: center;
   }
 
