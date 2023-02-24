@@ -139,6 +139,10 @@ a{
 
 }
 
+.dark-theme .toggle-button{
+    color: #DCDCDC;
+}
+
 .toggle-button:focus{
     outline: none;
 }
@@ -149,6 +153,14 @@ a{
     background: transparent;
     max-width: 100%;
     margin-left: 40px;
+}
+
+#dark-logo{
+    content: url(Images/cover-cropped.png);
+}
+
+.dark-theme #dark-logo{
+    content: url(Images/dark-cover.png);
 }
 /*------ Navigation menu------ */
 
@@ -247,11 +259,12 @@ a{
     margin-bottom: 140px;
 }
 .dark-theme .home-content{
-    background-image: url(Images/dark-textured-background.png);
+    background-image: url(Images/dark-background3.png);
 }
 .text-home{
     width: 100%;
 }
+
 .text-home img{
     max-height: 300px;
     max-width: 100%;
@@ -259,7 +272,6 @@ a{
     margin-left: 50px;
     margin-top: 10px;
     border-radius: 15px;
-
 }
 
 .home-content h1{
@@ -270,11 +282,19 @@ a{
     color: darkslategrey;
     margin-left: 15px;
 }
+
+.dark-theme h1{
+    color: #F8F8FF;
+}
 .home-content h4{
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 15px;
     font-size: 25px;
+}
+
+.dark-theme h4{
+    color: #FFFAFA;
 }
 
 
@@ -284,6 +304,10 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     margin-left: 15px;
+}
+
+.dark-theme .home-content p{
+    color: #FFFAFA;
 }
 /* /Main Page-articles */
 
@@ -310,6 +334,10 @@ a{
     width: 410px;
 
 }
+
+.dark-theme .article-bg{
+    background-image: url(Images/dark-background3.png);
+}
 .recent-articles{
     margin: auto;
     margin-top: 30px;
@@ -326,10 +354,6 @@ a{
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     
-
-
-
-    
 }
 
 
@@ -340,8 +364,10 @@ a{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
-    
+}
 
+.dark-theme .recent-articles p{
+    color: #FFFFFF;
 }
 
 .article-c{
@@ -634,6 +660,10 @@ ul.breadcrumb {
     padding: 20px;
 }
 
+.dark-theme .footer-container{
+    background-color: #808080;
+}
+
 
 .footer-element{
     padding: 20px;
@@ -682,9 +712,10 @@ ul.breadcrumb {
     width: auto;
     text-align: center;
     padding-top: 8px;
-    
+}
 
-
+.dark-theme .footer-copyright{
+    background-color: #696969;
 }
 
 .footer-copyright p{
