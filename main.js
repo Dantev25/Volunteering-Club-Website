@@ -7,22 +7,34 @@ toggle.addEventListener('click',function(){
 
 var icon = document.getElementById("moon-icon");
 icon.onclick = function(){
-    document.body.classList.toggle("dark-theme");
-    // document.body.classList.toggle("dark-theme hr-line");
-    // document.body.classList.toggle("dark-theme home-content");
-    // document.body.classList.toggle("dark-theme h1");
-    // document.body.classList.toggle("dark-theme article-bg");
-    document.body.classList.toggle("dark-theme dark-logo");
-    document.body.classList.toggle("dark-theme homepage-h2");
-    // document.body.classList.toggle("dark-theme recent-articles p");
+     document.body.classList.toggle("dark-theme");
 
-    if(document.body.classList.toggle("dark-theme")){
-        icon.a = '<i class="fa-solid fa-sun"></i>';
-    } else {
-        icon.a ='<i class="fa-solid fa-moon"></i>';
+     if(icon.classList.contains("fa-moon")){
+      icon.classList.remove("fa-moon");
+      icon.classList.add("fa-sun");
+    } else{
+      icon.classList.remove("fa-sun");
+      icon.classList.add("fa-moon");
     }
+  }
 
-}
+//     // document.body.classList.toggle("dark-theme hr-line");
+//     // document.body.classList.toggle("dark-theme home-content");
+//     // document.body.classList.toggle("dark-theme h1");
+//     // document.body.classList.toggle("dark-theme article-bg");
+//     document.body.classList.toggle("dark-theme dark-logo");
+//     document.body.classList.toggle("dark-theme homepage-h2");
+//     // document.body.classList.toggle("dark-theme recent-articles p");
+
+//     // if(document.body.classList.toggle("dark-theme")){
+//     //   icon.innerHTML = "&#xf185";
+//     // } else {
+//     //   icon.innerHTML = "&#xf186";
+//     // }
+
+
+
+
 
 //drag and drop
 var diffX, diffY, theElement;
