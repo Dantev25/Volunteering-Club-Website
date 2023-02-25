@@ -13,12 +13,13 @@ icon.onclick = function(){
     // document.body.classList.toggle("dark-theme h1");
     // document.body.classList.toggle("dark-theme article-bg");
     document.body.classList.toggle("dark-theme dark-logo");
+    document.body.classList.toggle("dark-theme homepage-h2");
     // document.body.classList.toggle("dark-theme recent-articles p");
 
     if(document.body.classList.toggle("dark-theme")){
-        icon.innerHTML= '<i class="fa-solid fa-sun"></i>';
+        icon.a = '<i class="fa-solid fa-sun"></i>';
     } else {
-        icon.innerHTML='<i class="fa-solid fa-moon"></i>';
+        icon.a ='<i class="fa-solid fa-moon"></i>';
     }
 
 }

@@ -284,13 +284,14 @@ a{
 }
 
 .dark-theme h1{
-    color: #F8F8FF;
+    color: #C0C0C0;
 }
 .home-content h4{
     margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 15px;
     font-size: 25px;
+    color:#000000
 }
 
 .dark-theme h4{
@@ -304,10 +305,23 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     margin-left: 15px;
+    color:#000000
 }
 
 .dark-theme .home-content p{
     color: #FFFAFA;
+}
+
+.homepage-h2{
+    margin-top: 100px;
+    text-align: center; 
+    font-family: 'URW Chancery L',cursive;
+    color: darkslategrey;
+    font-size: xx-large;
+}
+
+.dark-theme .homepage-h2{
+    color: #C0C0C0;
 }
 /* /Main Page-articles */
 
@@ -364,6 +378,7 @@ a{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+    color:#000000
 }
 
 .dark-theme .recent-articles p{
@@ -403,6 +418,7 @@ hr{
     text-align:center; 
     margin-left:auto; 
     margin-right:auto;
+    color:#000000
 }
 
 .article-c img {
@@ -411,6 +427,22 @@ hr{
     border-radius: 15px;
 }
 
+.article-clock{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.article-title{
+    font-weight: bold;
+    color: teal;
+    font-size: 20px;
+    font-family: 'URW Chancery L',cursive;
+}
+
+.dark-theme .article-title{
+    color: black
+}
 /* Media Query articles*/
 @media(max-width: 1268px){
     .recent-articles{
@@ -547,6 +579,7 @@ hr{
   
   .gallery-h1 {
       text-align: center;
+      color:#000000
   }
 
 
@@ -651,6 +684,7 @@ ul.breadcrumb {
             justify-content: space-evenly;
     
     padding: 20px;
+    color:#000000
 }
 
 .dark-theme .footer-container{
@@ -661,8 +695,14 @@ ul.breadcrumb {
 .footer-element{
     padding: 20px;
     width: 30%;
+}
 
+.dark-theme .footer-element{
+    color: #FFFFFF;
+}
 
+.dark-theme .mb-2{
+    color: #FFFFFF;
 }
 .footer-company-desc{
     width:130%;
@@ -688,7 +728,10 @@ ul.breadcrumb {
     border-width: 0px 0px 2px 0px;
     padding:8px;
     width:40%;
-    
+}
+
+.dark-theme .table{
+    color: #FFFFFF;
 }
 
 .footer-links a:hover{
@@ -713,7 +756,11 @@ ul.breadcrumb {
 
 .footer-copyright p{
  margin: 0;
+ color:#000000
+}
 
+.dark-theme .footer-copyright p{
+    color: #FFFFFF;
 }
 
 
@@ -728,7 +775,13 @@ ul.breadcrumb {
 .footer-copyright a{
     color:#000000;
 }
+.dark-theme .footer-copyright a{
+    color: #FFFFFF;
+}
 
+.dark-theme .breadcrumb a{
+    color: #FFFFFF;
+}
 /* Article  page*/
 .Article{
     border-radius: 20px;
